@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="loginPageHeader">35sp</dimen>
+    <dimen name="SignUpPageHeader">32sp</dimen>
+    <dimen name="loginPageHeading">22sp</dimen>
+    <dimen name="SignUpPageHeading">18sp</dimen>
+    <dimen name="SignUpPadding">4dp</dimen>
+    <dimen name="SignUpButtonPadding">8dp</dimen>
+    <dimen name="SignUpPageSideMargin">36dp</dimen>
+    <dimen name="ButtonSize">18sp</dimen>
+</resources>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "934537607994",
+    "firebase_url": "https://bookahaloics.firebaseio.com",
+    "project_id": "bookahaloics",
+    "storage_bucket": "bookahaloics.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:934537607994:android:2c2fad464e0cf311bc6e03",
+        "android_client_info": {
+          "package_name": "com.example.androidbookaholicscircle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "934537607994-5qe9p4bk1t80ajr7kn8mllnsdrpta3nn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.androidbookaholicscircle",
+            "certificate_hash": "badca6f3fd3be661c90de9459084e47afd58b5ea"
+          }
+        },
+        {
+          "client_id": "934537607994-tfsodthtd6nno667q8ud6vfnocav9he6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCX5J9IQ-6RKYWi7u7DJC2tBAMdQAo-V8o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "934537607994-tfsodthtd6nno667q8ud6vfnocav9he6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    android:orientation="vertical"
+    tools:context=".RegisterPage">
+
+        <TextView
+            android:id="@+id/SignUpHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:padding="@dimen/SignUpPadding"
+            android:layout_gravity="center"
+            android:fontFamily="cursive"
+            android:layout_margin="36dp"
+            android:text="@string/SignUpHeader"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/SignUpPageHeader"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/SignUpPageSideMargin"
+            android:layout_marginTop="18dp"
+            android:layout_marginLeft="@dimen/SignUpPageSideMargin"
+            android:padding="@dimen/SignUpPadding"
+            android:text="@string/email_address"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/SignUpPageHeading" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:id="@+id/textinputEmail"
+            android:layout_marginStart="@dimen/SignUpPageSideMargin"
+            android:layout_marginEnd="@dimen/SignUpPageSideMargin"
+            android:layout_gravity="center"
+            app:errorEnabled="true"
+            app:errorTextColor="#ff0000"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/SignUpPageSideMargin">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:hint="@string/email_address"
+                android:inputType="textEmailAddress"
+                android:layout_height="wrap_content"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/Password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/SignUpPageSideMargin"
+            android:layout_marginLeft="@dimen/SignUpPageSideMargin"
+            android:padding="@dimen/SignUpPadding"
+            android:layout_marginTop="18dp"
+            android:text="@string/password"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/SignUpPageHeading" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textinputPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/SignUpPageSideMargin"
+            android:layout_marginLeft="@dimen/SignUpPageSideMargin"
+            app:errorTextColor="#ff0000"
+            app:errorEnabled="true"
+            android:layout_marginEnd="@dimen/SignUpPageSideMargin"
+            app:passwordToggleEnabled="true"
+            app:passwordToggleTint="#ffffff">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:importantForAutofill="yes"
+                android:hint="@string/choose_a_strong_one"
+                android:inputType="textPassword"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/cPassword"
+            android:layout_marginTop="18dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/SignUpPageSideMargin"
+            android:layout_marginLeft="@dimen/SignUpPageSideMargin"
+            android:padding="@dimen/SignUpPadding"
+            android:text="@string/confirm_password"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/SignUpPageHeading" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textviewConfirmPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/SignUpPageSideMargin"
+            app:errorTextColor="#ff0000"
+            android:layout_marginLeft="@dimen/SignUpPageSideMargin"
+            app:errorEnabled="true"
+            android:layout_marginEnd="@dimen/SignUpPageSideMargin">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:importantForAutofill="yes"
+                android:hint="@string/i_am_sorry_can_you_repeat_that"
+                android:inputType="textPassword"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/signupButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="28dp"
+        android:background="#ffffff"
+        android:padding="@dimen/SignUpButtonPadding"
+        android:layout_gravity="center"
+        android:text="Sign Up"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:textStyle="italic"/>
+
+</LinearLayout>

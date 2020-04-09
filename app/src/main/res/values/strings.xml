@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Android Bookaholics Circle</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="registerButton">Not Registered? Register Here!</string>
+    <string name="MainHeader">Android Bookaholics Circle</string>
+    <string name="SignUpHeader">Get On board Buddy!!!</string>
+    <string name="full_name">Full Name</string>
+    <string name="hint_name">Your Name Goes Here!</string>
+    <string name="email_address">Email Address</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="hey_can_i_have_your_number">Hey! Can I have your number?</string>
+    <string name="choose_a_strong_one">Choose a strong one!</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="i_am_sorry_can_you_repeat_that">I am sorry, Can you repeat that?</string>
+</resources>
